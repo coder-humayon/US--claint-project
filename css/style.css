@@ -82,10 +82,64 @@ nav{
     border: solid 2px;
     border-color: #FFFFFF;
 }
+/* banner */
 #banner{
-    position: relative;
+    background: url('../images/banner.png') no-repeat center / cover;
+    padding: 150px 0px;
 }
-.banner1{
-    position: absolute;
-    top: 35%;
+.banner1 h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    padding: 13px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background-color: red;
+    cursor: pointer;
+}
+/* country */
+#country{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.country1{
+    display: flex;
+    align-items: center;
+}
+.country2{
+    width: 30%;
+    margin-right: 80px;
+}
+.country2 h4{
+    font-size: 48px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 77px;
+    font-family: "Poppins", sans-serif;
+}
+.country3{
+    width: 70%;
+}
+.country3 p{
+    padding-right: 90px;
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+/* image */
+#image{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+#image img{
+    width: 100%;
 }
